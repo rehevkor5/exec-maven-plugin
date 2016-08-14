@@ -1,15 +1,15 @@
 <project>
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.cb.maven.plugins.exec</groupId>
-  <artifactId>project15</artifactId>
-  <version>0.1</version>
-  <licenses>
-    <license>
-      <name>Apache License 2</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-      <distribution>repo</distribution>
-    </license>
-  </licenses>
+
+  <parent>
+    <groupId>org.codehaus.mojo.exec.it</groupId>
+    <artifactId>parent</artifactId>
+    <version>0.1</version>
+  </parent>
+
+  <groupId>org.codehaus.mojo.exec-maven-plugin</groupId>
+  <artifactId>git-issue-60-java</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
 
   <dependencies>
     <dependency>

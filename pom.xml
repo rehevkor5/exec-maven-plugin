@@ -328,6 +328,9 @@
                     <extraArtifact>org.apache.maven.plugins:maven-site-plugin:2.0.1:maven-plugin</extraArtifact>
                     <extraArtifact>commons-io:commons-io:1.1:jar</extraArtifact>
                     <extraArtifact>commons-logging:commons-logging:1.0.4:jar</extraArtifact>
+                    <extraArtifact>org.slf4j:slf4j-api:1.7.21:jar</extraArtifact>
+                    <extraArtifact>org.slf4j:slf4j-log4j12:1.7.21:jar</extraArtifact>
+                    <extraArtifact>log4j:log4j:1.2.17:jar</extraArtifact>
                     <extraArtifact>org.codehaus.plexus:plexus-utils:1.1:jar</extraArtifact>
                   </extraArtifacts>
                 </configuration>

@@ -5,9 +5,9 @@ jdk:
 script:
   - "mvn --show-version --errors --batch-mode -Prun-its clean verify"
   - ./showbuildoutput.sh
-#cache:
-#    directories:
-#    - $HOME/.m2
+cache:
+    directories:
+    - $HOME/.m2
 branches:
     except:
         - gh-pages
